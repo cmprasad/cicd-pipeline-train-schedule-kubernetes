@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent master
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "prasadcm/train-schedule"
